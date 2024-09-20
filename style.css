@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Dancing+Script:wght@700&family=Mynerve&family=Noto+Sans+JP:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background: #3c3c3c;
+    overflow: hidden;
+}
+nav{
+    background-color: #817e84;
+    overflow: hidden;
+    display: block;
+}
+nav a{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    float: right;
+    padding: 10px 30px;
+    color: white;
+    gap: 20px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+nav a:hover{
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    cursor: pointer;
+}
+.logo{
+        float: left;
+        transition: none;
+        font-family: "Permanent Marker", cursive;
+}
+.logo:hover{
+        box-shadow: none;
+}
+.title{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(242, 65, 255);
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+}  
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-rows: minmax(100px,auto);
+}   
+.Home-img{
+    width: 140px;
+    height: 140px;
+    gap: 1rem;
+    margin: 10px;
+}
+.left{
+    grid-column:1 ;
+    grid-row: 1/3;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.right{
+    grid-column: 2;
+    grid-row: 1/3;
+}
+.hi{
+    font-size: 70px;
+    padding-top: 20px;
+    font-family: "Jacquarda Bastarda 9";
+    color: rgb(254, 254, 128);
+}
+.text{
+    font-size: 100px;
+    padding-top: 70px;
+    font-family: "Matemasie", sans-serif;
+    color: #92e0fd;
+}
